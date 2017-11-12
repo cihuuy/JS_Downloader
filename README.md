@@ -6,6 +6,7 @@ Usage of obfuscator.exe (can also use the invoke_obfuscator_script):
 1) Through CMD cd to the directory where the EXE is.
 
 2) type: obfuscator.exe url dropfilename
+
 (for example: obfuscator.exe http://example.com/test.exe test.exe)
 
 3) Code should get copied to clipboard
