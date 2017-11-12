@@ -25,5 +25,7 @@ Usage of build_powershell.js:
 2) Save :)
 
 
+invoke_obfuscator_native: generates code from EXE (needs to be compiled)
+invoke_obfuscator_script: generates code from the string given in code (requiers AutoIT)
 
 And remember, stay Ethical!
