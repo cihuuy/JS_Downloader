@@ -20,6 +20,10 @@ Usage of encoder.py:
 
 Usage of build_powershell.js:
 
-1) Replace COPYCODETOHERE with the code you have in clipboard
+1) Replace SHELLCODEHERE with the code you have in clipboard
 
 2) Save :)
+
+
+
+And remember, stay Ethical!
