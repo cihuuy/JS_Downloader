@@ -1,7 +1,7 @@
 # JS_Downloader
 JavaScript powershell based Download &amp; Execute + Obfuscator &amp; Encoder
 
-Usage of obfuscator.exe:
+Usage of obfuscator.exe (can also use the invoke_obfuscator_script):
 
 1) Through CMD cd to the directory where the EXE is.
 
