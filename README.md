@@ -1,6 +1,8 @@
 # JS_Downloader
 JavaScript powershell based Download &amp; Execute + Obfuscator &amp; Encoder
 
+=== PRIVATE ===
+
 Usage of obfuscator.exe (can also use the invoke_obfuscator_script):
 
 1) Through CMD cd to the directory where the EXE is.
@@ -30,4 +32,4 @@ Usage of build_powershell.js:
 invoke_obfuscator_native: generates code from EXE (needs to be compiled)
 invoke_obfuscator_script: generates code from the string given in code (requiers AutoIT)
 
-And remember, stay Ethical!
+=== PRIVATE ===
