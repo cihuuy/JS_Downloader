@@ -14,7 +14,7 @@ Usage of obfuscator.exe (can also use the invoke_obfuscator_script):
 3) Code should get copied to clipboard
 
 
-Usage of encoder_builder:
+Usage of encoder_builder.py:
 
 1) Copy code from clipboard into encoder
 
