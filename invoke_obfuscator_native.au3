@@ -21,7 +21,6 @@ Next
 $end = StringTrimRight($end,1)
 ConsoleWrite('invoke-expression(' & $end  & ")" & @CRLF)
 ClipPut('invoke-expression(' & $end  & ")")
-MsgBox(0,"","The code has been put into your clipboard.")
 Func Search($char,$array)
 
    for $i=0 to UBound($array)-1
