@@ -3,23 +3,15 @@ JavaScript powershell based Download &amp; Execute + Obfuscator &amp; Encoder
 
 === PRIVATE ===
 
-Usage of obfuscator.exe (can also use the invoke_obfuscator_script):
+Usage of builder_encoder.py:
 
-1) Through CMD cd to the directory where the EXE is.
+1) Copy obfuscator.exe from x64 or x86 folder to the same folder as builder_encoder.py
 
-2) type: obfuscator.exe url dropfilename
+2) Make sure Python 2.7.11 is installed
 
-(for example: obfuscator.exe http://example.com/test.exe test.exe)
+3) Run builder_encoder.py
 
-3) Code should get copied to clipboard
-
-
-Usage of encoder_builder.py:
-
-1) Copy code from clipboard into encoder
-
-2) build.js file contains the JS code :)
-
+4) Follow Instructions
 
 
 invoke_obfuscator_native: generates code from EXE (needs to be compiled)
