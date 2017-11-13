@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 import base64
 import os
 import pyperclip
