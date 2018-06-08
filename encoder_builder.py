@@ -1,6 +1,15 @@
 import base64
 import os
 
+banner = ("##############################################################\n"
+          "## powershell download & execute , Encoder + Builder        ##\n"
+          "## Note: This is not a normal base64 encoder!               ##\n"
+          "## It converts the string to UTF-16LE first before encoding ##\n"
+          "## as that is what PowerShell expects!                      ##\n"
+          "##############################################################")
+print(banner)
+print('')
+
 print('## powershell download & execute , Encoder + Builder        ##')
 print('## Note: This is not a normal base64 encoder!               ##')
 print('## It converts the string to UTF-16LE first before encoding ##')
