@@ -1,7 +1,6 @@
 # JS_Downloader
 JavaScript powershell based Download &amp; Execute + Obfuscator &amp; Encoder
 
-=== PRIVATE ===
 
 Usage of builder_encoder.py:
 
@@ -16,5 +15,3 @@ Usage of builder_encoder.py:
 
 invoke_obfuscator_native: generates code from EXE (needs to be compiled)
 invoke_obfuscator_script: generates code from the string given in code (requiers AutoIT)
-
-=== PRIVATE ===
